@@ -1,0 +1,30 @@
+﻿h1,h2,h3,h4,h5,h6{
+    text-align: center;
+}
+*{
+    font-family: Calibri, serif;
+}
+.thumbnail{
+    font-weight: bold;
+}
+.html{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+.html_tag{
+    color: #ac3d3d;
+}
+
+.html_tag::before{
+    content: "<";
+}
+
+.html_tag::after{
+    content: ">";
+}
+
+.tag{
+    background: rgba(83, 105, 245, 0.16);
+    color: #0299c6;
+}
